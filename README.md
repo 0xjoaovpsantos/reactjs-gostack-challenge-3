@@ -1,77 +1,89 @@
-<img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
+<div align="center">
+  <img alt="Rocket"
+    src="https://hotmart.s3.amazonaws.com/product_contents/0569fee6-8c8f-4dee-a46d-80102ced177a/Header_Product_1920x450.jpg"
+  />
+
+</div>
+
+<h2 align="center">
+   Desafio 03: Conceitos sobre ReactJS
+</h2>
 
 <h3 align="center">
-  Desafio 03: Conceitos do ReactJS
+  <img alt="ReactNative" 
+    src="https://camo.githubusercontent.com/ef48e7b26cc8b5415d2c6093fa12b510069d1fa5/68747470733a2f2f7777772e636c6f7564636d732e636f6d2f696d616765732f717569636b7374617274732f72656163742f72656163742e64663730623030352e706e67" width="180px"/>
 </h3>
 
-<p align="center">“Faça seu melhor, mas sempre com prazo de entrega”!</blockquote>
+<blockquote align="center">
+  Esse projeto faz parte do bootcamp:
+    <a href="https://rocketseat.com.br/gostack">
+      GoStack by RocketSeat
+    </a> 
+</blockquote>
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafios?color=%2304D361">
+<hr/>
 
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
-  </a>
+## 💡 Sobre o desafio:
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
+Esse desafio tem como objetivo colocar em prática os conceitos aprendidos sobre o ReactJS, para desenvolveder esse desafio foi utilizado uma API escrita em Node que foi feita no desafio de NodeJS.
 
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-desafios?style=social">
-  </a>
-</p>
+## 🔥 Funcionalidades:
 
-<p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+Através dessa aplicação conseguimos:
 
-## :rocket: Sobre o desafio
+- Ver a lista de repositórios criados através da nossa API
+- Cadastrar um novo repositório padrão
+- Deletar um repositório
 
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
+## ⚙️ Techs:
 
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
+- **ReactJS**
+- Yarn
+- Jest
+- Babel
+- WebPack
 
-### Template da aplicação
+## ⛏ Ferramentas:
 
-Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como um template do github.
+- [Visual Studo Code](https://code.visualstudio.com/download)
+- [Insomnia](https://insomnia.rest/download/)
 
-O template está disponível na seguinte url: **[Acessar Template](https://github.com/Rocketseat/gostack-template-conceitos-reactjs)**
+## 🏁 Executar esse projeto:
 
-**Dica**: Caso não saiba utilizar repositórios do github como template, temos um guia em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
+Para executar esse projeto em sua máquina,  
+De o clone no repositório:
 
-Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` no seu terminal para instalar todas as dependências e já estará pronto para iniciar.
+```bash
+$ git clone https://github.com/joaovictorpsantos/reactjs-gostack-challenge-3.git
+```
 
-### Funcionalidades da aplicação
+Execute esse comando na raiz de seu projeto para puxar as dependências:
 
-Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
+```bash
+yarn
+```
 
-- **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo **title** de todos os repositórios que estão cadastrados na sua API.
+<br/>
 
-- **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto **Adicionar** e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
+<h4 align="center">
+  Vamos compartilhar conhecimento e crescer juntos!!!
+</h4>
 
-- **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto **Remover** que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
-
-### Específicação dos testes
-
-Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
-
-Para esse desafio temos os seguintes testes:
-
-- **`should be able to add new repository`**: Para que esse teste passe, sua aplicação deve permitir que um repositório seja adicionado ao seu backend e listado no seu frontend dentro de uma `LI`.
-
-- **`should be able to remove repository`**: Para que esse teste passe, sua aplicação deve permitir que ao clicar no botão de remover que vai estar dentro da `LI` do repositório adicionado, o item seja removido da listagem.
-
-## :calendar: Entrega
-
-Esse desafio deve ser entregue a partir da plataforma Skylab, envie o link do repositório que você fez suas alterações. Após concluir o desafio, fazer um post no Linkedin e postar o código no Github é uma boa forma de demonstrar seus conhecimentos e esforços para evoluir na sua carreira para oportunidades futuras.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+<br/>
 
 ---
 
-Feito com 💜 by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+<h3 align="center">
+Autor: <a alt="Fred-Reis" href="https://github.com/joaovictorpsantos">João Victor Pereira Santos</a>
+</h3>
+
+<p align="center">
+
+  <a alt="Frederico Reis" href="https://www.linkedin.com/in/joao-victor-pereira-santos//">
+    <img src="https://img.shields.io/badge/LinkedIn-Jo%C3%A3o%20Victor%20Pereira%20Santos-blue?logo=linkedin"/></a>
+  <a alt="Frederico Reis" href="https://github.com/joaovictorpsantos">
+  <img src="https://img.shields.io/badge/GitHub-joaovictorpsantos-lightgrey?logo=github"/></a>
+ <a alt="Frederico Reis" href="https://twitter.com/_joaovictorps">
+  <img src="https://img.shields.io/badge/Twitter-__joaovictorps-blue?logo=twitter"/></a>
+
+</p>
