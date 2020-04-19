@@ -10,7 +10,7 @@
 </h2>
 
 <h3 align="center">
-  <img alt="ReactNative" 
+  <img alt="React" 
     src="https://camo.githubusercontent.com/ef48e7b26cc8b5415d2c6093fa12b510069d1fa5/68747470733a2f2f7777772e636c6f7564636d732e636f6d2f696d616765732f717569636b7374617274732f72656163742f72656163742e64663730623030352e706e67" width="180px"/>
 </h3>
 
