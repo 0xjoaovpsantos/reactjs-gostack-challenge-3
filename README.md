@@ -5,9 +5,34 @@
 
 </div>
 
-<h2 align="center">
-   Desafio 03: Conceitos sobre ReactJS
-</h2>
+
+# Desafio 03: Conceitos sobre ReactJS
+
+> Desafio usando React feito durante o bootcamp GoStack
+
+<a href="https://github.com/joaovictorpsantos">
+<img alt="Autor" src="https://img.shields.io/badge/autor-JoãoVictorPereiraSantos-7159c1?style=flat-square">
+</a>
+
+<a href="#">
+<img alt="Linguagens" src="https://img.shields.io/github/languages/count/joaovictorpsantos/reactjs-gostack-challenge-3?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/reactjs-gostack-challenge-3/stargazers">
+<img alt="Stars" src="https://img.shields.io/github/stars/joaovictorpsantos/reactjs-gostack-challenge-3?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/reactjs-gostack-challenge-3/network/members">
+<img alt="Forks" src="https://img.shields.io/github/forks/joaovictorpsantos/reactjs-gostack-challenge-3?color=7159c1&style=flat-square">
+</a>
+
+<a href="#">
+<img alt="Tamanho do código em bytes" src="https://img.shields.io/github/languages/code-size/joaovictorpsantos/reactjs-gostack-challenge-3?color=7159c1&style=flat-square">
+</a>
+
+<a href="https://github.com/joaovictorpsantos/reactjs-gostack-challenge-3/commits/master">
+<img alt="Commits" src="https://img.shields.io/github/last-commit/joaovictorpsantos/reactjs-gostack-challenge-3?color=7159c1&style=flat-square">
+</a>
 
 <h3 align="center">
   <img alt="React" 
